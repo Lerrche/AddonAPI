@@ -2,6 +2,24 @@ site_name: AddonAPI Docs
 theme:
   name: material
   language: en
+  palette:
+    - scheme: slate
+      primary: grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - content.code.copy
+    - navigation.sections
+
 nav:
   - Main: index.md
   - Tutorial:
