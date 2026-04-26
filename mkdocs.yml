@@ -1,29 +1,10 @@
 site_name: AddonAPI Docs
 theme:
   name: material
-  language: en # Русский поиск и интерфейс
-  palette: 
-    # Настройка темной и светлой темы
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-  features:
-    - navigation.tabs # Горизонтальное меню сверху
-    - navigation.sections # Секции в боковом меню
-    - content.code.copy # Кнопка "копировать" для кода
-    - search.suggest # Подсказки в поиске
-
+  language: en
 nav:
-  - Главная: index.md
-  - Начало работы: setup.md
-  - API Справочник: api.md
-  - Безопасность (SusLevel): security.md
+  - Main: index.md
+  - Tutorial:
+      - Setup: setup.md
+      - Creating first mod: tutorials/first.md
+  - API Documentation: API.md
