@@ -1,7 +1,6 @@
 site_name: AddonAPI Docs
-site_description: Professional Addon System for Roblox
+site_description: Addon API documentation
 site_author: Lerche
-# site_url: https://Lerrche.github.io/AddonAPI/ # Раскомментируй, когда деплой заработает
 
 repo_name: Lerrche/AddonAPI
 repo_url: https://github.com/Lerrche/AddonAPI
@@ -10,16 +9,14 @@ theme:
   name: material
   language: en
   features:
-    - navigation.tabs       # Полоска с разделами сверху, как у ZonePlus
-    - navigation.tracking   # Обновляет URL при скролле
-    - content.code.copy     # Кнопка копирования кода
+    - navigation.tracking
+    - content.code.copy
   
   palette:
-    # Автоматическое переключение, но с упором на Slate (темную тему)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: grey         # Серая верхняя полоска
-      accent: indigo        # Цвет ссылок и активных элементов
+      primary: grey
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -32,10 +29,10 @@ theme:
         name: Switch to dark mode
 
 markdown_extensions:
-  - admonition          # Красивые блоки !!! info и т.д.
-  - pymdownx.superfences # Улучшенная подсветка кода
+  - admonition
+  - pymdownx.superfences
   - toc:
-      permalink: true    # Ссылки-якоря у заголовков
+      permalink: true
 
 nav:
   - Main: index.md
