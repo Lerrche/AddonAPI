@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+```lua
+print("test")
+```
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+!!! info "Подсказка"
+    Вы можете использовать Iris для создания своего UI внутри мода.
 
-## Commands
+!!! warning "Внимание"
+    Не вызывайте `LogAction` чаще 10 раз в секунду, чтобы не нагружать сервер.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! danger "Критическая ошибка"
+    Прямое редактирование таблицы `ActiveMods` запрещено!
