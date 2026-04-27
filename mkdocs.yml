@@ -38,4 +38,4 @@ nav:
   - Tutorial:
       - Setup: setup.md
       - Creating first mod: tutorials/first.md
-  - API Documentation: api/main
+  - API Documentation: api/main.md
